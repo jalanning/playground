@@ -6,7 +6,10 @@ export default function ClickCounter(): JSX.Element {
   return (
     <div>
       You've clicked {clickCounter} times
-      <button className='border border-8 border-blue-300' onClick={() => setClickCounter(clickCounter + 1)}>
+      <button
+        className="border-8 border-blue-300"
+        onClick={() => setClickCounter(clickCounter + 1)}
+      >
         Click me
       </button>
     </div>
